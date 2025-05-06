@@ -11,7 +11,7 @@ feature_names = joblib.load("feature_names.pkl")
 
 # Load the dataset for visualizations (assuming it's a CSV file)
 # Replace the path with the actual path to your dataset
-df = pd.read_csv('D:/ML_PROJECT/instagram-fake-detector/final-v1.csv')
+df = pd.read_csv('final-v1.csv')
 
 # Pie and Bar Chart for Fake vs. Real Accounts
 fake_real_count = df['is_fake'].value_counts()
